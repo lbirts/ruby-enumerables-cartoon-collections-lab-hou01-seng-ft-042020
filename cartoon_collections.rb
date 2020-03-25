@@ -1,4 +1,5 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index(1) { |dwarves, index| 
   words_array.collect {|word| word.reverse }
   # Your code here
 end
