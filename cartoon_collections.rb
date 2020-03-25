@@ -1,4 +1,5 @@
 def roll_call_dwarves# code an argument here
+  words_array.collect {|word| word.reverse }
   # Your code here
 end
 
